@@ -2,9 +2,12 @@
 
 ## Access to the project:
 URL: https://apex.oracle.com/pls/apex/r/database_martin/music-label/home?session=113408105155257 
-workspace: database_martin                 
-username: DEV_NBU_2025                                        contributor: beta             password: 12345678
-password: INFM_210_12345                                           reader: alfa             password: 12345678
+
+workspace: database_martin                                                       
+contributor: beta             
+password: 12345678                                          
+reader: alfa             
+password: 12345678
 
 ## Overview
 
@@ -15,22 +18,22 @@ The application is based on an extended database originally developed for the co
 
 ## Key Features
 
-Artist, album, and concert management
+- Artist, album, and concert management
 
-Ticket and album sales tracking
+- Ticket and album sales tracking
 
-Merchandise sales
+- Merchandise sales
 
-User reviews and ratings
+- User reviews and ratings
 
-Search across multiple entities
+- Search across multiple entities
 
-Analytical reports and rankings
+- Analytical reports and rankings
 
-Role-based access control
+- Role-based access control
 
 ## Database Design
- ![Image Alt](image_url).
+ ![Image Alt](images/Database.png).
 ### Relational Model
 
 The database consists of six core tables and two relationship tables supporting many-to-many associations.
@@ -87,7 +90,7 @@ Includes 7–10 demo records per table
 ## Submission (artist applications)
  ![Image Alt](image_url).
 ## About Us
- ![Image Alt](image_url).
+ ![Image Alt](https://github.com/Martus-21/Music-Label---APEX-Oracle/blob/b13f748bf8ad8eb55c5641de9fda3b90b6788fa1/images/About%20us.png). 
 ## Contact
  ![Image Alt](image_url).
 ## UI & Design
@@ -125,17 +128,17 @@ Includes 7–10 demo records per table
 ### Administrator
 
 - Full access (CRUD operations, reports, security management)
-
+![Image Alt](image_url).
 ### Contributor
 
 - Data entry and submission privileges
-
+![Image Alt](image_url).
 ### Reader
 
 - Read-only access to public data
 
 - Role-based security is enforced throughout the application.
-
+![Image Alt](image_url).
 ## Technologies Used
 
 - Oracle APEX
