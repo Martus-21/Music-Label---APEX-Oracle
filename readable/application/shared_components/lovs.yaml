@@ -1,0 +1,162 @@
+---
+- # ====== List of Values: DELETE_ARTIST_ID ====================
+  id: 37815576305940734779
+  identification: 
+    name: DELETE_ARTIST_ID
+
+  subscription: 
+    version-number: 15622081456308
+
+  source: 
+    location: Local Database
+    type: Table / View
+    table-owner: Parsing Schema
+    table-name: ARTISTS
+
+  column-mapping: 
+    return: ARTIST_ID
+    display: NAME
+    default-sort: NAME
+    sort-direction: Ascending (Nulls Last)
+
+- # ====== List of Values: UPDATE CONCERT ======================
+  id: 37842162241636355821
+  identification: 
+    name: UPDATE CONCERT
+
+  subscription: 
+    version-number: 15622096998266
+
+  source: 
+    location: Local Database
+    type: Table / View
+    table-owner: Parsing Schema
+    table-name: CONCERTS
+
+  column-mapping: 
+    return: CONCERT_ID
+    display: CONCERT_ID
+    default-sort: CONCERT_ID
+    sort-direction: Ascending (Nulls Last)
+
+- # ====== List of Values: DELETE_CONCERT_ID ===================
+  id: 37844838708357434950
+  identification: 
+    name: DELETE_CONCERT_ID
+
+  subscription: 
+    version-number: 15622098216233
+
+  source: 
+    location: Local Database
+    type: Table / View
+    table-owner: Parsing Schema
+    table-name: CONCERTS
+
+  column-mapping: 
+    return: CONCERT_ID
+    display: CONCERT_ID
+    default-sort: CONCERT_ID
+    sort-direction: Ascending (Nulls Last)
+
+- # ====== List of Values: DELETE_ALBUM ========================
+  id: 37867620450430774616
+  identification: 
+    name: DELETE_ALBUM
+
+  subscription: 
+    version-number: 15622112830479
+
+  source: 
+    location: Local Database
+    type: Table / View
+    table-owner: Parsing Schema
+    table-name: ALBUMS
+
+  column-mapping: 
+    return: ALBUM_ID
+    display: NAME
+    default-sort: NAME
+    sort-direction: Ascending (Nulls Last)
+
+- # ====== List of Values: STYLE_OF_MUSIC ======================
+  id: 40896694765685181702
+  identification: 
+    name: STYLE_OF_MUSIC
+
+  subscription: 
+    version-number: 15623471685870
+
+  source: 
+    location: Local Database
+    type: Table / View
+    table-owner: Parsing Schema
+    table-name: ARTISTS
+    where-clause: Group by style_of_music
+
+  column-mapping: 
+    return: STYLE_OF_MUSIC
+    display: STYLE_OF_MUSIC
+    default-sort: STYLE_OF_MUSIC
+    sort-direction: Ascending (Nulls Last)
+
+- # ====== List of Values: TYPE ================================
+  id: 41445422552429946606
+  identification: 
+    name: TYPE
+
+  subscription: 
+    version-number: 15623670266443
+
+  source: 
+    location: Local Database
+    type: Table / View
+    table-owner: Parsing Schema
+    table-name: REVIEWS
+
+  column-mapping: 
+    return: TARGET_TYPE
+    display: TARGET_TYPE
+    default-sort: TARGET_TYPE
+    sort-direction: Ascending (Nulls Last)
+
+- # ====== List of Values: ACCESS_ROLES ========================
+  id: 49123784494892279884
+  identification: 
+    name: ACCESS_ROLES
+
+  subscription: 
+    version-number: 15627262352347
+
+  source: 
+    location: Local Database
+    type: SQL Query
+    sql-query: |
+      select role_name d, role_id r
+      from APEX_APPL_ACL_ROLES where application_id = :APP_ID 
+      order by 1
+
+  column-mapping: 
+    return: R
+    display: D
+    default-sort: Use Order By from Query
+
+- # ====== List of Values: EMAIL_USERNAME_FORMAT ===============
+  id: 49123792280767279896
+  identification: 
+    name: EMAIL_USERNAME_FORMAT
+
+  subscription: 
+    version-number: 15627262352485
+
+  source: 
+    location: Static Values
+
+  entries: 
+  - # ====== Entry: Email Addresses ==============================
+    id: 49123792534100279896
+    entry: 
+      sequence: 1
+      display: Email Addresses
+      return: EMAIL
+

@@ -1,0 +1,27 @@
+---
+- # ====== Search Configuration: Artist_Search =================
+  id: 40947944324744781936
+  identification: 
+    name: Artist_Search
+
+  subscription: 
+    version-number: 15623484577842
+
+  source: 
+    search-type: Simple (APEX Data Source)
+    location: Local Database
+    type: Table / View
+    table-owner: Parsing Schema
+    table-name: ARTISTS
+    searchable-columns: 'NAME:STYLE_OF_MUSIC:COUNTRY'
+
+  column-mapping: 
+    primary-key-1-column-name: ARTIST_ID
+    title-column-name: NAME
+
+  icon-and-badge: 
+    icon-source: Initials
+
+  advanced: 
+    static-id: artist_search
+

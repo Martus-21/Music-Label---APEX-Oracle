@@ -1,0 +1,801 @@
+---
+- # ====== List: Artist_Search =================================
+  id: 41045668870040852830
+  identification: 
+    name: Artist_Search
+
+  subscription: 
+    version-number: 15623492537741
+
+  source: 
+    type: Static Values
+
+- # ====== List: Submission ====================================
+  id: 41313590417770534985
+  identification: 
+    name: Submission
+
+  subscription: 
+    version-number: 15623621553761
+
+  source: 
+    type: Static Values
+
+  entries: 
+  - # ====== Entry: Step 1 =======================================
+    id: 41313592043436534991
+    label: 
+      label: Step 1
+
+    layout: 
+      sequence: 10
+
+    is-current: 
+      type: Target Page
+
+    link: 
+      target: 
+        url: 'f?p=&APP_ID.:24:&APP_SESSION.::&DEBUG.:::'
+        page: 24 # Step 1
+
+    click-counting: 
+      count-clicks: false
+
+    user-defined-attributes: 
+      translatable: false
+
+  - # ====== Entry: Step 2 =======================================
+    id: 41313595238453534994
+    label: 
+      label: Step 2
+
+    layout: 
+      sequence: 20
+
+    is-current: 
+      type: Target Page
+
+    link: 
+      target: 
+        url: 'f?p=&APP_ID.:25:&APP_SESSION.::&DEBUG.:::'
+        page: 25 # Step 2
+
+    click-counting: 
+      count-clicks: false
+
+    user-defined-attributes: 
+      translatable: false
+
+  - # ====== Entry: Step 3 =======================================
+    id: 41313599168903534997
+    label: 
+      label: Step 3
+
+    layout: 
+      sequence: 30
+
+    is-current: 
+      type: Target Page
+
+    link: 
+      target: 
+        url: 'f?p=&APP_ID.:26:&APP_SESSION.::&DEBUG.:::'
+        page: 26 # Step 3
+
+    click-counting: 
+      count-clicks: false
+
+    user-defined-attributes: 
+      translatable: false
+
+- # ====== List: Access Control ================================
+  id: 49123809939454280286
+  identification: 
+    name: Access Control
+
+  subscription: 
+    version-number: 15627262357540
+
+  source: 
+    type: Static Values
+
+  configuration: 
+    build-option: 'Feature: Access Control' # 49123766398310279846
+
+  entries: 
+  - # ====== Entry: Users ========================================
+    id: 49123810376805280286
+    label: 
+      label: Users
+
+    icon: 
+      image/icon-css-classes: fa-users
+
+    layout: 
+      sequence: 10
+
+    is-current: 
+      type: Target Page
+
+    link: 
+      target: 
+        url: 'f?p=&APP_ID.:10011:&APP_SESSION.::&DEBUG.:RP::'
+        page: 10011 # Manage User Access
+        clear-cache: RP
+
+    click-counting: 
+      count-clicks: false
+
+    user-defined-attributes: 
+      translatable: false
+      1.: Set level of access for authenticated users of this application
+
+  - # ====== Entry: Access Control ===============================
+    id: 49123810754424280286
+    label: 
+      label: Access Control
+
+    icon: 
+      image/icon-css-classes: fa-key
+
+    layout: 
+      sequence: 20
+
+    is-current: 
+      type: Target Page
+
+    link: 
+      target: 
+        url: 'f?p=&APP_ID.:10010:&APP_SESSION.::&DEBUG.:::'
+        page: 10010 # Configure Access Control
+
+    click-counting: 
+      count-clicks: false
+
+    user-defined-attributes: 
+      translatable: false
+      1.: Change access control settings and disable access control
+
+- # ====== List: Navigation Menu ===============================
+  id: 77757805567206496478
+  identification: 
+    name: Navigation Menu
+
+  subscription: 
+    version-number: 15627262357524
+
+  source: 
+    type: Static Values
+
+  entries: 
+  - # ====== Entry: Artists ======================================
+    id: 37622966997397605333
+    label: 
+      label: Artists
+
+    icon: 
+      image/icon-css-classes: fa-file-o
+
+    layout: 
+      sequence: 20
+
+    is-current: 
+      type: Pages
+      pages: 
+      - 2
+
+    link: 
+      target: 
+        url: 'f?p=&APP_ID.:2:&APP_SESSION.::&DEBUG.:::'
+        page: 2 # Artists
+
+    click-counting: 
+      count-clicks: false
+
+    user-defined-attributes: 
+      translatable: false
+
+  - # ====== Entry: Concerts =====================================
+    id: 37824568651301642068
+    label: 
+      label: Concerts
+
+    icon: 
+      image/icon-css-classes: fa-file-o
+
+    layout: 
+      sequence: 30
+
+    is-current: 
+      type: Pages
+      pages: 
+      - 3
+
+    link: 
+      target: 
+        url: 'f?p=&APP_ID.:3:&APP_SESSION.::&DEBUG.:::'
+        page: 3 # Concerts
+
+    click-counting: 
+      count-clicks: false
+
+    user-defined-attributes: 
+      translatable: false
+
+  - # ====== Entry: Albums =======================================
+    id: 37857867762156561083
+    label: 
+      label: Albums
+
+    icon: 
+      image/icon-css-classes: fa-file-o
+
+    layout: 
+      sequence: 40
+
+    is-current: 
+      type: Pages
+      pages: 
+      - 4
+
+    link: 
+      target: 
+        url: 'f?p=&APP_ID.:4:&APP_SESSION.::&DEBUG.:::'
+        page: 4 # Albums
+
+    click-counting: 
+      count-clicks: false
+
+    user-defined-attributes: 
+      translatable: false
+
+  - # ====== Entry: Merchandise ==================================
+    id: 37876800605209086549
+    label: 
+      label: Merchandise
+
+    icon: 
+      image/icon-css-classes: fa-file-o
+
+    layout: 
+      sequence: 50
+
+    is-current: 
+      type: Pages
+      pages: 
+      - 5
+
+    link: 
+      target: 
+        url: 'f?p=&APP_ID.:5:&APP_SESSION.::&DEBUG.:::'
+        page: 5 # Merchandise
+
+    click-counting: 
+      count-clicks: false
+
+    user-defined-attributes: 
+      translatable: false
+
+  - # ====== Entry: Sales ========================================
+    id: 37878723984595153717
+    label: 
+      label: Sales
+
+    icon: 
+      image/icon-css-classes: fa-file-o
+
+    layout: 
+      sequence: 60
+
+    is-current: 
+      type: Pages
+      pages: 
+      - 6
+
+    link: 
+      target: 
+        url: 'f?p=&APP_ID.:6:&APP_SESSION.::&DEBUG.:::'
+        page: 6 # Sales Report
+
+    click-counting: 
+      count-clicks: false
+
+    user-defined-attributes: 
+      translatable: false
+
+  - # ====== Entry: Profit Report ================================
+    id: 37907535162659808743
+    label: 
+      label: Profit Report
+
+    icon: 
+      image/icon-css-classes: fa-file-o
+
+    layout: 
+      sequence: 70
+
+    is-current: 
+      type: Pages
+      pages: 
+      - 7
+
+    link: 
+      target: 
+        url: 'f?p=&APP_ID.:7:&APP_SESSION.::&DEBUG.:::'
+        page: 7 # Profit Report
+
+    click-counting: 
+      count-clicks: false
+
+    user-defined-attributes: 
+      translatable: false
+
+  - # ====== Entry: Rankings =====================================
+    id: 38681096877136046237
+    label: 
+      label: Rankings
+
+    icon: 
+      image/icon-css-classes: fa-file-o
+
+    layout: 
+      sequence: 80
+
+    is-current: 
+      type: Pages
+      pages: 
+      - 8
+
+    link: 
+      target: 
+        url: 'f?p=&APP_ID.:8:&APP_SESSION.::&DEBUG.:::'
+        page: 8 # Rankings
+
+    click-counting: 
+      count-clicks: false
+
+    user-defined-attributes: 
+      translatable: false
+
+  - # ====== Entry: Rankings by Artist ===========================
+    id: 38681602614119063258
+    label: 
+      label: Rankings by Artist
+
+    icon: 
+      image/icon-css-classes: fa-file-o
+
+    layout: 
+      sequence: 90
+      parent-entry: Rankings # 38681096877136046237
+
+    is-current: 
+      type: Pages
+      pages: 
+      - 9
+
+    link: 
+      target: 
+        url: 'f?p=&APP_ID.:9:&APP_SESSION.::&DEBUG.:::'
+        page: 9 # Rankings by Artist
+
+    click-counting: 
+      count-clicks: false
+
+    user-defined-attributes: 
+      translatable: false
+
+  - # ====== Entry: Rankings by Album ============================
+    id: 38682077970654066584
+    label: 
+      label: Rankings by Album
+
+    icon: 
+      image/icon-css-classes: fa-file-o
+
+    layout: 
+      sequence: 100
+      parent-entry: Rankings # 38681096877136046237
+
+    is-current: 
+      type: Pages
+      pages: 
+      - 10
+
+    link: 
+      target: 
+        url: 'f?p=&APP_ID.:10:&APP_SESSION.::&DEBUG.:::'
+        page: 10 # Rankings by Album
+
+    click-counting: 
+      count-clicks: false
+
+    user-defined-attributes: 
+      translatable: false
+
+  - # ====== Entry: Search =======================================
+    id: 40982587825193047733
+    label: 
+      label: Search
+
+    icon: 
+      image/icon-css-classes: fa-file-o
+
+    layout: 
+      sequence: 110
+
+    is-current: 
+      type: Pages
+      pages: 
+      - 14
+
+    link: 
+      target: 
+        url: 'f?p=&APP_ID.:14:&APP_SESSION.::&DEBUG.:::'
+        page: 14 # Search
+
+    click-counting: 
+      count-clicks: false
+
+    user-defined-attributes: 
+      translatable: false
+
+  - # ====== Entry: Artist Search ================================
+    id: 41048971037176224077
+    label: 
+      label: Artist Search
+
+    icon: 
+      image/icon-css-classes: fa-table-search
+
+    layout: 
+      sequence: 120
+      parent-entry: Search # 40982587825193047733
+
+    is-current: 
+      type: Pages
+      pages: 
+      - 16
+
+    link: 
+      target: 
+        url: 'f?p=&APP_ID.:16:&APP_SESSION.::&DEBUG.:::'
+        page: 16 # Artist Search
+
+    click-counting: 
+      count-clicks: false
+
+    user-defined-attributes: 
+      translatable: false
+
+  - # ====== Entry: Album Search =================================
+    id: 41052898765937040995
+    label: 
+      label: Album Search
+
+    icon: 
+      image/icon-css-classes: fa-table-search
+
+    layout: 
+      sequence: 130
+      parent-entry: Search # 40982587825193047733
+
+    is-current: 
+      type: Pages
+      pages: 
+      - 17
+
+    link: 
+      target: 
+        url: 'f?p=&APP_ID.:17:&APP_SESSION.::&DEBUG.:::'
+        page: 17 # Album Search
+
+    click-counting: 
+      count-clicks: false
+
+    user-defined-attributes: 
+      translatable: false
+
+  - # ====== Entry: Search Concert ===============================
+    id: 41252172337517492219
+    label: 
+      label: Search Concert
+
+    icon: 
+      image/icon-css-classes: fa-table-search
+
+    layout: 
+      sequence: 140
+      parent-entry: Search # 40982587825193047733
+
+    is-current: 
+      type: Pages
+      pages: 
+      - 18
+
+    link: 
+      target: 
+        url: 'f?p=&APP_ID.:18:&APP_SESSION.::&DEBUG.:::'
+        page: 18 # Search Concert
+
+    click-counting: 
+      count-clicks: false
+
+    user-defined-attributes: 
+      translatable: false
+
+  - # ====== Entry: Search Merch =================================
+    id: 41253374082754791036
+    label: 
+      label: Search Merch
+
+    icon: 
+      image/icon-css-classes: fa-table-search
+
+    layout: 
+      sequence: 150
+      parent-entry: Search # 40982587825193047733
+
+    is-current: 
+      type: Pages
+      pages: 
+      - 19
+
+    link: 
+      target: 
+        url: 'f?p=&APP_ID.:19:&APP_SESSION.::&DEBUG.:::'
+        page: 19 # Search Merch
+
+    click-counting: 
+      count-clicks: false
+
+    user-defined-attributes: 
+      translatable: false
+
+  - # ====== Entry: Reviews ======================================
+    id: 41254319720173814781
+    label: 
+      label: Reviews
+
+    icon: 
+      image/icon-css-classes: fa-file-o
+
+    layout: 
+      sequence: 160
+
+    is-current: 
+      type: Pages
+      pages: 
+      - 20
+
+    link: 
+      target: 
+        url: 'f?p=&APP_ID.:20:&APP_SESSION.::&DEBUG.:::'
+        page: 20 # Reviews
+
+    click-counting: 
+      count-clicks: false
+
+    user-defined-attributes: 
+      translatable: false
+
+  - # ====== Entry: Submission ===================================
+    id: 41313591171722534990
+    label: 
+      label: Submission
+
+    icon: 
+      image/icon-css-classes: fa-magic
+
+    layout: 
+      sequence: 170
+
+    is-current: 
+      type: Pages
+      pages: 
+      - 24
+
+    link: 
+      target: 
+        url: 'f?p=&APP_ID.:24:&APP_SESSION.::&DEBUG.:::'
+        page: 24 # Step 1
+
+    click-counting: 
+      count-clicks: false
+
+    user-defined-attributes: 
+      translatable: false
+
+  - # ====== Entry: About Us =====================================
+    id: 41435724364564748231
+    label: 
+      label: About Us
+
+    icon: 
+      image/icon-css-classes: fa-file-o
+
+    layout: 
+      sequence: 180
+
+    is-current: 
+      type: Pages
+      pages: 
+      - 28
+
+    link: 
+      target: 
+        url: 'f?p=&APP_ID.:28:&APP_SESSION.::&DEBUG.:::'
+        page: 28 # About Us
+
+    click-counting: 
+      count-clicks: false
+
+    user-defined-attributes: 
+      translatable: false
+
+  - # ====== Entry: Contact ======================================
+    id: 41441280946233862315
+    label: 
+      label: Contact
+
+    icon: 
+      image/icon-css-classes: fa-forms
+
+    layout: 
+      sequence: 190
+
+    is-current: 
+      type: Pages
+      pages: 
+      - 29
+
+    link: 
+      target: 
+        url: 'f?p=&APP_ID.:29:&APP_SESSION.::&DEBUG.:::'
+        page: 29 # Contact
+
+    click-counting: 
+      count-clicks: false
+
+    user-defined-attributes: 
+      translatable: false
+
+  - # ====== Entry: Administration ===============================
+    id: 49123808839824280284
+    label: 
+      label: Administration
+
+    icon: 
+      image/icon-css-classes: fa-user-wrench
+
+    layout: 
+      sequence: 10000
+
+    is-current: 
+      type: Pages
+      pages: 
+      - 10000
+
+    link: 
+      target: 
+        url: 'f?p=&APP_ID.:10000:&APP_SESSION.::&DEBUG.:::'
+        page: 10000 # Administration
+
+    click-counting: 
+      count-clicks: false
+
+    user-defined-attributes: 
+      translatable: false
+
+  - # ====== Entry: Home =========================================
+    id: 77758105540773496691
+    label: 
+      label: Home
+
+    icon: 
+      image/icon-css-classes: fa-home
+
+    layout: 
+      sequence: 10
+
+    is-current: 
+      type: Target Page
+
+    link: 
+      target: 
+        url: 'f?p=&APP_ID.:1:&APP_SESSION.::&DEBUG.:::'
+        page: 1 # Home
+
+    click-counting: 
+      count-clicks: false
+
+    user-defined-attributes: 
+      translatable: false
+
+- # ====== List: Navigation Bar ================================
+  id: 77758094970152496679
+  identification: 
+    name: Navigation Bar
+
+  subscription: 
+    version-number: 15589087213196
+
+  source: 
+    type: Static Values
+
+  entries: 
+  - # ====== Entry: &APP_USER. ===================================
+    id: 77758107033648496693
+    label: 
+      label: '&APP_USER.'
+
+    icon: 
+      image/icon-css-classes: fa-user
+
+    layout: 
+      sequence: 10
+
+    is-current: 
+      type: Target Page
+
+    link: 
+      target: '#'
+
+    click-counting: 
+      count-clicks: false
+
+    user-defined-attributes: 
+      translatable: false
+      2.: has-username
+
+  - # ====== Entry: --- ==========================================
+    id: 77758107529182496694
+    label: 
+      label: '---'
+
+    layout: 
+      sequence: 20
+      parent-entry: '&APP_USER.' # 77758107033648496693
+
+    is-current: 
+      type: Target Page
+
+    link: 
+      target: separator
+
+    click-counting: 
+      count-clicks: false
+
+    user-defined-attributes: 
+      translatable: false
+
+    server-side-condition: 
+      type: User is Authenticated (not public)
+
+  - # ====== Entry: Sign Out =====================================
+    id: 77758107991973496694
+    label: 
+      label: Sign Out
+
+    icon: 
+      image/icon-css-classes: fa-sign-out
+
+    layout: 
+      sequence: 30
+      parent-entry: '&APP_USER.' # 77758107033648496693
+
+    is-current: 
+      type: Target Page
+
+    link: 
+      target: '&LOGOUT_URL.'
+
+    click-counting: 
+      count-clicks: false
+
+    user-defined-attributes: 
+      translatable: false
+
+    server-side-condition: 
+      type: User is Authenticated (not public)
+
