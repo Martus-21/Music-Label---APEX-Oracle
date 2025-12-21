@@ -1,0 +1,277 @@
+---
+# ====== Page: Home ==========================================
+id: 1
+identification: 
+  name: Home
+  alias: HOME
+  title: Music label
+
+appearance: 
+  page-mode: Normal
+  page-template: Theme Default
+  template-options: 
+  - '#DEFAULT#'
+
+navigation-menu: 
+  override-user-interface-level: false
+
+navigation: 
+  cursor-focus: Do not focus cursor
+  warn-on-unsaved-changes: true
+
+css: 
+  inline: |
+    body {
+      background-color: black;
+      color: white; 
+    }
+
+security: 
+  authentication: Page Requires Authentication
+  deep-linking: Application Default
+  page-access-protection: Arguments Must Have Checksum
+  form-auto-complete: Off
+  browser-cache: Application Default
+
+session-management: 
+  rejoin-sessions: Application Default
+
+advanced: 
+  enable-duplicate-page-submissions: Yes - Enable page to be re-posted
+  reload-on-submit: Only for Success
+
+server-cache: 
+  caching: Disabled
+
+regions: 
+- # ====== Region: Welcome user ================================
+  id: 41432359959343691813
+  identification: 
+    name: Welcome user
+    type: Static Content
+
+  source: 
+    html-code: |
+      Welcome, &APP_USER.! We're glad you're here.
+      Whether you're a lifelong music lover, a curious listener, or an artist looking for your tribe—welcome. You've just stepped into a space built on passion, creativity, and the belief that music connects us all. Take your time, explore, and make yourself at home.
+
+  layout: 
+    sequence: 10
+    parent-region: No Parent
+    slot: BODY
+    start-new-layout: false
+    start-new-row: true
+    column: Automatic
+    new-column: true
+    column-span: Automatic
+
+  appearance: 
+    template: Standard
+    template-options: 
+    - '#DEFAULT#'
+    - t-Region--scrollBody
+    render-components: Above Content
+
+  accessibility: 
+    use-landmark: true
+    landmark-type: Template Default
+
+  advanced: 
+    region-display-selector: false
+    exclude-title-from-translation: false
+
+  customization: 
+    customizable: Not Customizable By End Users
+
+  attributes: 
+    settings: 
+      output-as: HTML
+      expand-shortcuts: false
+
+- # ====== Region: Discover our Artists ========================
+  id: 41432360096312691814
+  identification: 
+    name: Discover our Artists
+    type: Static Content
+
+  source: 
+    html-code: |
+      Discover the sound of tomorrow.
+      Explore our artists, listen to new releases, and join a community that lives and breathes music.
+      🎧 <a href="f?p=&APP_ID.:2:&APP_SESSION."><span>Our Artists</span></a>
+      <a href="f?p=&APP_ID.:29:&APP_SESSION."><span>📝 Contact us </span></a> for exclusive updates & behind-the-scenes access
+
+  layout: 
+    sequence: 20
+    parent-region: No Parent
+    slot: BODY
+    start-new-layout: false
+    start-new-row: true
+    column: 1
+    new-column: true
+    column-span: 4
+
+  appearance: 
+    template: Standard
+    template-options: 
+    - '#DEFAULT#'
+    - t-Region--scrollBody
+    render-components: Above Content
+
+  accessibility: 
+    use-landmark: true
+    landmark-type: Template Default
+
+  advanced: 
+    region-display-selector: false
+    exclude-title-from-translation: false
+
+  customization: 
+    customizable: Not Customizable By End Users
+
+  attributes: 
+    settings: 
+      output-as: HTML
+      expand-shortcuts: false
+
+- # ====== Region: Check out our Partners ======================
+  id: 41432360116692691815
+  identification: 
+    name: Check out our Partners
+    type: Static Content
+
+  source: 
+    html-code: |
+      We’re proud to be backed by brands and organizations that share our vision for creativity, culture, and community. From tech partners to lifestyle collaborators, our sponsors help us amplify our artists and deliver unforgettable music experiences.
+      <div class="music-companies">
+        <h3>Our Partners</h3>
+        <ul>
+          <li><a href="https://napalmrecords.com/deutsch/" target="_blank" rel="noopener noreferrer">Napalm Records</a></li>
+          <li><a href="https://www.universalmusic.com" target="_blank" rel="noopener noreferrer">Universal Music Group</a></li>
+          <li><a href="https://www.sonymusic.com" target="_blank" rel="noopener noreferrer">Sony Music Entertainment</a></li>
+          <li><a href="https://www.wmg.com" target="_blank" rel="noopener noreferrer">Warner Music Group</a></li>
+          <li><a href="https://www.bmg.com" target="_blank" rel="noopener noreferrer">BMG Rights Management</a></li>
+        </ul>
+      </div>
+
+  layout: 
+    sequence: 30
+    parent-region: No Parent
+    slot: BODY
+    start-new-layout: false
+    start-new-row: false
+    column: 5
+    new-column: true
+    column-span: 4
+
+  appearance: 
+    template: Standard
+    template-options: 
+    - '#DEFAULT#'
+    - t-Region--scrollBody
+    render-components: Above Content
+
+  accessibility: 
+    use-landmark: true
+    landmark-type: Template Default
+
+  advanced: 
+    region-display-selector: false
+    exclude-title-from-translation: false
+
+  customization: 
+    customizable: Not Customizable By End Users
+
+  attributes: 
+    settings: 
+      output-as: HTML
+      expand-shortcuts: false
+
+- # ====== Region: Check out our Albums! =======================
+  id: 41432360210647691816
+  identification: 
+    name: Check out our Albums!
+    type: Static Content
+
+  source: 
+    html-code: |
+      <div align=center>
+      <a href="f?p=&APP_ID.:4:&APP_SESSION.">
+      <img src="#APP_FILES#34556.jpg" style="width: 40%; height: 40%; object-fit: contain;">></a>
+      <br>Albums
+      </div>
+
+  layout: 
+    sequence: 40
+    parent-region: No Parent
+    slot: BODY
+    start-new-layout: false
+    start-new-row: false
+    column: 9
+    new-column: true
+    column-span: 4
+
+  appearance: 
+    template: Standard
+    template-options: 
+    - '#DEFAULT#'
+    - t-Region--scrollBody
+    render-components: Above Content
+
+  accessibility: 
+    use-landmark: true
+    landmark-type: Template Default
+
+  advanced: 
+    region-display-selector: false
+    exclude-title-from-translation: false
+
+  customization: 
+    customizable: Not Customizable By End Users
+
+  attributes: 
+    settings: 
+      output-as: HTML
+      expand-shortcuts: false
+
+- # ====== Region: Music label =================================
+  id: 77758106485642496692
+  identification: 
+    name: Music label
+    type: Static Content
+
+  layout: 
+    sequence: 10
+    parent-region: No Parent
+    slot: REGION_POSITION_01
+    start-new-layout: false
+    start-new-row: true
+    column: Automatic
+    new-column: true
+    column-span: Automatic
+
+  appearance: 
+    template: Hero
+    template-options: 
+    - '#DEFAULT#'
+    render-components: Above Content
+
+  accessibility: 
+    use-landmark: true
+    landmark-type: Template Default
+
+  image: 
+    file-url: '#APP_FILES#icons/app-icon-512.png'
+
+  advanced: 
+    region-display-selector: false
+    exclude-title-from-translation: false
+
+  customization: 
+    customizable: Not Customizable By End Users
+
+  attributes: 
+    settings: 
+      output-as: HTML
+      expand-shortcuts: false
+
