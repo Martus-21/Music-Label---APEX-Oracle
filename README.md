@@ -30,6 +30,7 @@ Analytical reports and rankings
 Role-based access control
 
 ## Database Design
+ ![Image Alt](image_url).
 ### Relational Model
 
 The database consists of six core tables and two relationship tables supporting many-to-many associations.
@@ -64,33 +65,33 @@ Includes 7–10 demo records per table
 
 ## Application Pages & Functionality
 ## Home Page
-
+ ![Image Alt](image_url).
 ## Artists
-
+ ![Image Alt](image_url).
 ## Concerts
-
+ ![Image Alt](image_url).
 ## Albums
-
+ ![Image Alt](image_url).
 ## Merchandise
-
+ ![Image Alt](image_url).
 ## Sales
-
+ ![Image Alt](image_url).
 ## Profit Report
-
+ ![Image Alt](image_url).
 ## Rankings
-
+ ![Image Alt](image_url).
 ## Search
-
+ ![Image Alt](image_url).
 ## Reviews
-
+ ![Image Alt](image_url).
 ## Submission (artist applications)
-
+ ![Image Alt](image_url).
 ## About Us
-
+ ![Image Alt](image_url).
 ## Contact
-
+ ![Image Alt](image_url).
 ## UI & Design
-
+ ![Image Alt](image_url).
 - Custom APEX theme (non-standard)
 
 - Navigation menu repositioned for better UX
