@@ -70,11 +70,11 @@ Includes 7–10 demo records per table
 ## Home Page
  ![Image Alt](image_url).
 ## Artists
- ![Image Alt](image_url).
+ ![Image Alt](https://github.com/Martus-21/Music-Label---APEX-Oracle/blob/d9d43e1675ea8395f8317bd51d7a7392b957cfb5/images/Artists.png).
 ## Concerts
- ![Image Alt](image_url).
+ ![Image Alt](https://github.com/Martus-21/Music-Label---APEX-Oracle/blob/d9d43e1675ea8395f8317bd51d7a7392b957cfb5/images/Concerts.png).
 ## Albums
- ![Image Alt](image_url).
+ ![Image Alt](https://github.com/Martus-21/Music-Label---APEX-Oracle/blob/d9d43e1675ea8395f8317bd51d7a7392b957cfb5/images/Albums.png).
 ## Merchandise
  ![Image Alt](image_url).
 ## Sales
@@ -92,7 +92,7 @@ Includes 7–10 demo records per table
 ## About Us
  ![Image Alt](https://github.com/Martus-21/Music-Label---APEX-Oracle/blob/b13f748bf8ad8eb55c5641de9fda3b90b6788fa1/images/About%20us.png). 
 ## Contact
- ![Image Alt](image_url).
+ ![Image Alt](https://github.com/Martus-21/Music-Label---APEX-Oracle/blob/d9d43e1675ea8395f8317bd51d7a7392b957cfb5/images/Contact.png).
 ## UI & Design
  ![Image Alt](image_url).
 - Custom APEX theme (non-standard)
@@ -128,7 +128,7 @@ Includes 7–10 demo records per table
 ### Administrator
 
 - Full access (CRUD operations, reports, security management)
-![Image Alt](image_url).
+![Image Alt](https://github.com/Martus-21/Music-Label---APEX-Oracle/blob/d9d43e1675ea8395f8317bd51d7a7392b957cfb5/images/Administration.png).
 ### Contributor
 
 - Data entry and submission privileges
