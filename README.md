@@ -138,7 +138,7 @@ Includes 7–10 demo records per table
 - Read-only access to public data
 
 - Role-based security is enforced throughout the application.
-![Image Alt](https://github.com/Martus-21/Music-Label---APEX-Oracle/blob/e79f333f0dd9e4a0a4294b2a5c3223c89876e170/images/Reader.png).
+
 ## Technologies Used
 
 - Oracle APEX
