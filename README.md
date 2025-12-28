@@ -68,7 +68,7 @@ Includes 7–10 demo records per table
 
 ## Application Pages & Functionality
 ## Home Page
- ![Image Alt](image_url).
+ ![Image Alt](https://github.com/Martus-21/Music-Label---APEX-Oracle/blob/e79f333f0dd9e4a0a4294b2a5c3223c89876e170/images/Home.png).
 ## Artists
  ![Image Alt](https://github.com/Martus-21/Music-Label---APEX-Oracle/blob/d9d43e1675ea8395f8317bd51d7a7392b957cfb5/images/Artists.png).
 ## Concerts
@@ -76,25 +76,25 @@ Includes 7–10 demo records per table
 ## Albums
  ![Image Alt](https://github.com/Martus-21/Music-Label---APEX-Oracle/blob/d9d43e1675ea8395f8317bd51d7a7392b957cfb5/images/Albums.png).
 ## Merchandise
- ![Image Alt](image_url).
+ ![Image Alt](https://github.com/Martus-21/Music-Label---APEX-Oracle/blob/e79f333f0dd9e4a0a4294b2a5c3223c89876e170/images/Merch.png).
 ## Sales
- ![Image Alt](image_url).
+ ![Image Alt](https://github.com/Martus-21/Music-Label---APEX-Oracle/blob/e79f333f0dd9e4a0a4294b2a5c3223c89876e170/images/Sales.png).
 ## Profit Report
- ![Image Alt](image_url).
+ ![Image Alt](https://github.com/Martus-21/Music-Label---APEX-Oracle/blob/e79f333f0dd9e4a0a4294b2a5c3223c89876e170/images/Profit%20Report.png).
 ## Rankings
- ![Image Alt](image_url).
+ ![Image Alt](https://github.com/Martus-21/Music-Label---APEX-Oracle/blob/e79f333f0dd9e4a0a4294b2a5c3223c89876e170/images/Rankings%20by%20Artist.png).
 ## Search
- ![Image Alt](image_url).
+ ![Image Alt](https://github.com/Martus-21/Music-Label---APEX-Oracle/blob/e79f333f0dd9e4a0a4294b2a5c3223c89876e170/images/Search%20page.png).
 ## Reviews
- ![Image Alt](image_url).
+ ![Image Alt](https://github.com/Martus-21/Music-Label---APEX-Oracle/blob/e79f333f0dd9e4a0a4294b2a5c3223c89876e170/images/Reciews.png).
 ## Submission (artist applications)
- ![Image Alt](image_url).
+ ![Image Alt](https://github.com/Martus-21/Music-Label---APEX-Oracle/blob/e79f333f0dd9e4a0a4294b2a5c3223c89876e170/images/Submission%201.png).
 ## About Us
  ![Image Alt](https://github.com/Martus-21/Music-Label---APEX-Oracle/blob/b13f748bf8ad8eb55c5641de9fda3b90b6788fa1/images/About%20us.png). 
 ## Contact
  ![Image Alt](https://github.com/Martus-21/Music-Label---APEX-Oracle/blob/d9d43e1675ea8395f8317bd51d7a7392b957cfb5/images/Contact.png).
 ## UI & Design
- ![Image Alt](image_url).
+
 - Custom APEX theme (non-standard)
 
 - Navigation menu repositioned for better UX
@@ -132,13 +132,13 @@ Includes 7–10 demo records per table
 ### Contributor
 
 - Data entry and submission privileges
-![Image Alt](image_url).
+![Image Alt](https://github.com/Martus-21/Music-Label---APEX-Oracle/blob/e79f333f0dd9e4a0a4294b2a5c3223c89876e170/images/Contributor.png).
 ### Reader
 
 - Read-only access to public data
 
 - Role-based security is enforced throughout the application.
-![Image Alt](image_url).
+![Image Alt](https://github.com/Martus-21/Music-Label---APEX-Oracle/blob/e79f333f0dd9e4a0a4294b2a5c3223c89876e170/images/Reader.png).
 ## Technologies Used
 
 - Oracle APEX
